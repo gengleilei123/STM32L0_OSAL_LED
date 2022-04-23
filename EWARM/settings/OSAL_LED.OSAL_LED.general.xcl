@@ -1,0 +1,15 @@
+"D:\Install\install\IAR\IAR\arm\bin\armproc.dll" 
+
+"D:\Install\install\IAR\IAR\arm\bin\armjlink2.dll" 
+
+"D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Exe\OSAL_LED.out" 
+
+--plugin="D:\Install\install\IAR\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\Install\install\IAR\IAR\arm\config\debugger\ST\STM32L0xx.dmac" 
+
+--flash_loader="D:\Install\install\IAR\IAR\arm\config\flashloader\ST\FlashSTM32L07xxB.board" 
+
+
+
+
