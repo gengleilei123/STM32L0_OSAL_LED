@@ -10,28 +10,27 @@
 //硬件定时器初始化，设定系统时钟
 void OSAL_TIMER_TICKINIT(void)
 {
-	HAL_SYSTICK_Config(SystemCoreClock / (1000U / uwTickFreq));//[][][][]
+  HAL_SYSTICK_Config(SystemCoreClock / (1000U / uwTickFreq)); //[][][][]
 }
 
 //开启硬件定时器
-void OSAL_TIMER_TICKSTART(void )
+void OSAL_TIMER_TICKSTART(void)
 {
 
 }
 
 //关闭硬件定时器
-void OSAL_TIMER_TICKSTOP(void )
+void OSAL_TIMER_TICKSTOP(void)
 {
-
 }
 
 //此处添加硬件定时器中断溢出函数，并调用系统时钟更新函数osal_update_timers()
 /**
-  * @brief  This function handles SysTick Handler.
-  * @param  None
-  * @retval None
-  */
+ * @brief  This function handles SysTick Handler.
+ * @param  None
+ * @retval None
+ */
 void SysTick_Handler(void)
 {
-	osal_update_timers();
+   osal_update_timers();
 }

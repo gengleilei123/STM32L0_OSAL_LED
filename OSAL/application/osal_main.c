@@ -26,7 +26,8 @@ void osal_main(void)
     osal_init_system();
 
 	//添加任务
-	osal_add_Task(Serial_Task_Init,Serial_Task_EventProcess,1);	
+	osal_add_Task(Serial_Task_Init,Serial_Task_EventProcess,1);
+	osal_add_Task(LED4_Task_Init,LED4_Task_EventProcess,2);	
 	//添加的任务统一进行初始化
 	osal_Task_init();
 
@@ -36,9 +37,14 @@ void osal_main(void)
 	HAL_ENABLE_INTERRUPTS();	
 
 	//设置初始任务事件，上电就需要自动轮询的任务事件可在此添加
-	//osal_start_reload_timer( LED_TaskID, LED_LIGHT, 1000);
-	byte osal_start_timerEx( byte taskID, UINT16 event_id, UINT16 timeout_value );
+	osal_start_reload_timer( LED_TaskID, SYSCLK, 20);
+	osal_start_reload_timer( LED0_TaskID, OSAL_LED0, 10);
+	//osal_start_timerEx( LED_TaskID, SYSCLK, 20 );//启动一个软定时器
+	
 
 	//启动osal系统，不会再返回
 	osal_start_system();
+
+	//osal_update_timers();
+
 }

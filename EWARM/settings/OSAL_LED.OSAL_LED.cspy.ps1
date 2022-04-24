@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Install\install\IAR\IAR\common\bin\cspybat" -f "D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.general.xcl" --backend -f "D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.driver.xcl" 
+& "D:\Install\install\IAR\IAR\common\bin\cspybat" -f "D:\Company\work\1_Project\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.general.xcl" --backend -f "D:\Company\work\1_Project\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.driver.xcl" 
 }
 else
 {
-& "D:\Install\install\IAR\IAR\common\bin\cspybat" -f "D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.general.xcl" --debug_file=$debugfile --backend -f "D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.driver.xcl" 
+& "D:\Install\install\IAR\IAR\common\bin\cspybat" -f "D:\Company\work\1_Project\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.general.xcl" --debug_file=$debugfile --backend -f "D:\Company\work\1_Project\OSAL_LED\EWARM\settings\OSAL_LED.OSAL_LED.driver.xcl" 
 }

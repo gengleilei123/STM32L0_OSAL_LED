@@ -1,51 +1,51 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  22/Apr/2022  17:57:09
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  24/Apr/2022  20:39:45
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Exe\OSAL_LED.out
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Exe\OSAL_LED.out
 #    Map file     =
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\List\OSAL_LED.map
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\List\OSAL_LED.map
 #    Command line =
-#        -f C:\Users\GENGLE~1.VEM\AppData\Local\Temp\EW2984.tmp
-#        (D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\gpio.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\main.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal_event.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal_main.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal_memory.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal_msg.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\osal_timer.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\serial_task.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\startup_stm32l071xx.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_cortex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_dma.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_exti.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash_ex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash_ramfunc.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_gpio.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_i2c.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_i2c_ex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_msp.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_pwr.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_pwr_ex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_rcc.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_rcc_ex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_tim.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_tim_ex.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_it.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\system_stm32l0xx.o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj\timer.o
+#        -f C:\Users\GENGLE~1.VEM\AppData\Local\Temp\EWC009.tmp
+#        (D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\gpio.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\main.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal_event.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal_main.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal_memory.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal_msg.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\osal_timer.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\serial_task.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\startup_stm32l071xx.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_cortex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_dma.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_exti.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash_ex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_flash_ramfunc.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_gpio.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_i2c.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_i2c_ex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_msp.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_pwr.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_pwr_ex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_rcc.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_rcc_ex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_tim.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_hal_tim_ex.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\stm32l0xx_it.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\system_stm32l0xx.o
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj\timer.o
 #        --no_out_extension -o
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Exe\OSAL_LED.out
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Exe\OSAL_LED.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\List\OSAL_LED.map
+#        D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\List\OSAL_LED.map
 #        --config
-#        D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM/stm32l071xx_flash.icf
+#        D:\Company\work\1_Project\OSAL_LED\EWARM/stm32l071xx_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -87,7 +87,7 @@ initialize by copy { rw };
   .intvec            ro code   0x800'0000    0xc0  startup_stm32l071xx.o [1]
                              - 0x800'00c0    0xc0
 
-"P1":                                      0x13fe
+"P1":                                      0x154c
   .text              ro code   0x800'00c0   0x678  stm32l0xx_hal_rcc.o [1]
   .text              ro code   0x800'0738    0x44  stm32l0xx_hal.o [1]
   .text              ro code   0x800'077c     0xc  stm32l0xx_hal.o [1]
@@ -102,79 +102,79 @@ initialize by copy { rw };
   .text              ro code   0x800'08da     0x2  startup_stm32l071xx.o [1]
   .text              ro code   0x800'08dc   0x1c8  stm32l0xx_hal_gpio.o [1]
   .text              ro code   0x800'0aa4   0x198  stm32l0xx_hal_rcc_ex.o [1]
-  .text              ro code   0x800'0c3c   0x160  osal_memory.o [1]
-  .text              ro code   0x800'0d9c   0x148  osal_timer.o [1]
-  .text              ro code   0x800'0ee4    0x34  timer.o [1]
-  .text              ro code   0x800'0f18    0xd8  osal_event.o [1]
-  .text              ro code   0x800'0ff0    0xc8  main.o [1]
-  .text              ro code   0x800'10b8    0x28  stm32l0xx_hal.o [1]
-  .text              ro code   0x800'10e0    0x60  gpio.o [1]
-  .text              ro code   0x800'1140    0x38  osal_main.o [1]
-  .text              ro code   0x800'1178    0x1c  stm32l0xx_hal_msp.o [1]
-  .text              ro code   0x800'1194    0x14  memset.o [3]
-  .text              ro code   0x800'11a8    0x4c  osal.o [1]
-  .text              ro code   0x800'11f4     0xc  ABImemset_small.o [3]
-  .text              ro code   0x800'1200    0x94  osal_msg.o [1]
-  .text              ro code   0x800'1294    0x64  serial_task.o [1]
-  .rodata            const     0x800'12f8    0x3c  main.o [1]
-  .text              ro code   0x800'1334    0x3c  zero_init3.o [3]
-  .text              ro code   0x800'1370    0x30  copy_init3.o [3]
-  .text              ro code   0x800'13a0    0x28  data_init.o [3]
-  .iar.init_table    const     0x800'13c8    0x24  - Linker created -
-  .text              ro code   0x800'13ec    0x20  system_stm32l0xx.o [1]
-  .text              ro code   0x800'140c    0x1e  cmain.o [3]
-  .text              ro code   0x800'142a     0x4  low_level_init.o [2]
-  .text              ro code   0x800'142e     0x8  exit.o [2]
-  .text              ro code   0x800'1436     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1438     0xa  cexit.o [3]
-  .text              ro code   0x800'1442     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1444    0x14  exit.o [4]
-  Initializer bytes  const     0x800'1458    0x14  <for P2-1>
-  .text              ro code   0x800'146c    0x10  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'147c     0xc  cstartup_M.o [3]
-  .text              ro code   0x800'1488     0x8  stm32l0xx_it.o [1]
-  .text              ro code   0x800'1490     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1492     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1494     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1496     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'1498     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'149a     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'149c     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'149e     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14a0     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14a2     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14a4     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14a6     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14a8     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14aa     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14ac     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14ae     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14b0     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14b2     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14b4     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14b6     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14b8     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14ba     0x2  startup_stm32l071xx.o [1]
-  .text              ro code   0x800'14bc     0x2  startup_stm32l071xx.o [1]
-  .rodata            const     0x800'14be     0x0  zero_init3.o [3]
-  .rodata            const     0x800'14be     0x0  copy_init3.o [3]
-                             - 0x800'14be  0x13fe
+  .text              ro code   0x800'0c3c   0x164  osal_timer.o [1]
+  .text              ro code   0x800'0da0    0x34  timer.o [1]
+  .text              ro code   0x800'0dd4   0x160  osal_memory.o [1]
+  .text              ro code   0x800'0f34    0xd8  osal_event.o [1]
+  .text              ro code   0x800'100c   0x122  osal_msg.o [1]
+  .text              ro code   0x800'112e     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1130    0xf4  serial_task.o [1]
+  .text              ro code   0x800'1224    0x60  gpio.o [1]
+  .text              ro code   0x800'1284    0x14  memset.o [3]
+  .text              ro code   0x800'1298     0xc  ABImemset_small.o [3]
+  .text              ro code   0x800'12a4    0xc8  main.o [1]
+  .text              ro code   0x800'136c    0x28  stm32l0xx_hal.o [1]
+  .text              ro code   0x800'1394    0x58  osal_main.o [1]
+  .text              ro code   0x800'13ec    0x1c  stm32l0xx_hal_msp.o [1]
+  .text              ro code   0x800'1408    0x4c  osal.o [1]
+  .text              ro code   0x800'1454    0x3c  zero_init3.o [3]
+  .rodata            const     0x800'1490    0x34  main.o [1]
+  .text              ro code   0x800'14c4    0x30  copy_init3.o [3]
+  .text              ro code   0x800'14f4    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'151c    0x24  - Linker created -
+  .text              ro code   0x800'1540    0x20  system_stm32l0xx.o [1]
+  .text              ro code   0x800'1560    0x1e  cmain.o [3]
+  .text              ro code   0x800'157e     0x4  low_level_init.o [2]
+  .text              ro code   0x800'1582     0x8  exit.o [2]
+  .text              ro code   0x800'158a     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'158c     0xa  cexit.o [3]
+  .text              ro code   0x800'1596     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1598    0x14  exit.o [4]
+  .text              ro code   0x800'15ac    0x10  startup_stm32l071xx.o [1]
+  Initializer bytes  const     0x800'15bc    0x10  <for P2-1>
+  .text              ro code   0x800'15cc     0xc  cstartup_M.o [3]
+  .text              ro code   0x800'15d8     0x8  stm32l0xx_it.o [1]
+  .text              ro code   0x800'15e0     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15e2     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15e4     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15e6     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15e8     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15ea     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15ec     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15ee     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15f0     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15f2     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15f4     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15f6     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15f8     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15fa     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15fc     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'15fe     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1600     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1602     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1604     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1606     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'1608     0x2  startup_stm32l071xx.o [1]
+  .text              ro code   0x800'160a     0x2  startup_stm32l071xx.o [1]
+  .rodata            const     0x800'160c     0x0  zero_init3.o [3]
+  .rodata            const     0x800'160c     0x0  copy_init3.o [3]
+                             - 0x800'160c  0x154c
 
-"P2", part 1 of 3:                           0x14
-  P2-1                        0x2000'0000    0x14  <Init block>
-    .data            inited   0x2000'0000     0x4  serial_task.o [1]
-    .data            inited   0x2000'0004     0xc  stm32l0xx_hal.o [1]
-    .data            inited   0x2000'0010     0x4  system_stm32l0xx.o [1]
-                            - 0x2000'0014    0x14
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32l0xx_hal.o [1]
+    .data            inited   0x2000'000c     0x4  system_stm32l0xx.o [1]
+                            - 0x2000'0010    0x10
 
-"P2", part 2 of 3:                         0x1840
+"P2", part 2 of 3:                         0x1844
   .bss               zero     0x2000'0020  0x1800  osal_memory.o [1]
   .bss               zero     0x2000'1820    0x14  osal_memory.o [1]
   .bss               zero     0x2000'1834     0xc  osal_event.o [1]
   .bss               zero     0x2000'1840     0xc  osal_timer.o [1]
   .bss               zero     0x2000'184c     0x4  osal.o [1]
-  .bss               zero     0x2000'1850     0x1  serial_task.o [1]
-                            - 0x2000'1851  0x183d
+  .bss               zero     0x2000'1850     0x2  serial_task.o [1]
+  .bss               zero     0x2000'1852     0x2  serial_task.o [1]
+                            - 0x2000'1854  0x1844
 
 "P2", part 3 of 3:                          0x400
   CSTACK                      0x2000'1858   0x400  <Block>
@@ -185,7 +185,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'14be   0x802'ffff  0x2'eb42
+   0x800'160c   0x802'ffff  0x2'e9f4
   0x2000'1854  0x2000'1857       0x4
   0x2000'1c58  0x2000'4fff    0x33a8
 
@@ -197,14 +197,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x1831:
-          0x2000'0020  0x1831
+    1 destination range, total size 0x1834:
+          0x2000'0020  0x1834
 
 Copy (__iar_copy_init3)
-    1 source range, total size 0x14:
-           0x800'1458    0x14
-    1 destination range, total size 0x14:
-          0x2000'0000    0x14
+    1 source range, total size 0x10:
+           0x800'15bc    0x10
+    1 destination range, total size 0x10:
+          0x2000'0000    0x10
 
 
 
@@ -218,16 +218,16 @@ command line/config:
     -------------------------------------------------
     Total:
 
-D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj: [1]
+D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj: [1]
     gpio.o                       96
-    main.o                      200       60
+    main.o                      200       52
     osal.o                       76                 4
     osal_event.o                216                12
-    osal_main.o                  56
+    osal_main.o                  88
     osal_memory.o               352             6'164
-    osal_msg.o                  148
-    osal_timer.o                328                12
-    serial_task.o               100        4        5
+    osal_msg.o                  290
+    osal_timer.o                356                12
+    serial_task.o               244                 4
     startup_stm32l071xx.o       264
     stm32l0xx_hal.o             120       12       12
     stm32l0xx_hal_cortex.o      120
@@ -239,7 +239,7 @@ D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj: [1]
     system_stm32l0xx.o           32        4        4
     timer.o                      52
     -------------------------------------------------
-    Total:                    4'716       80    6'213
+    Total:                    5'062       68    6'212
 
 dl6M_tlf.a: [2]
     exit.o                        8
@@ -269,10 +269,10 @@ shb_l.a: [4]
     -------------------------------------------------
     Total:                       20
 
-    Gaps                                           12
+    Gaps                                           16
     Linker created                        36    1'024
 -----------------------------------------------------
-    Grand Total:              5'194      116    7'249
+    Grand Total:              5'540      104    7'252
 
 
 *******************************************************************************
@@ -281,18 +281,18 @@ shb_l.a: [4]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base    0x800'13c8           --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'13ec           --   Gb  - Linker created -
-?main                    0x800'140d          Code  Gb  cmain.o [3]
-AHBPrescTable            0x800'13f0    0x10  Data  Gb  system_stm32l0xx.o [1]
+.iar.init_table$$Base    0x800'151c           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1540           --   Gb  - Linker created -
+?main                    0x800'1561          Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'1544    0x10  Data  Gb  system_stm32l0xx.o [1]
 CSTACK$$Base            0x2000'1858           --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1c58           --   Gb  - Linker created -
 HAL_GPIO_Init            0x800'08dd   0x19a  Code  Gb  stm32l0xx_hal_gpio.o [1]
 HAL_GPIO_WritePin        0x800'0a77     0xc  Code  Gb  stm32l0xx_hal_gpio.o [1]
 HAL_GetTick              0x800'077d     0xc  Code  Wk  stm32l0xx_hal.o [1]
-HAL_Init                 0x800'10b9    0x24  Code  Gb  stm32l0xx_hal.o [1]
+HAL_Init                 0x800'136d    0x24  Code  Gb  stm32l0xx_hal.o [1]
 HAL_InitTick             0x800'0739    0x44  Code  Wk  stm32l0xx_hal.o [1]
-HAL_MspInit              0x800'1179    0x1c  Code  Gb  stm32l0xx_hal_msp.o [1]
+HAL_MspInit              0x800'13ed    0x1c  Code  Gb  stm32l0xx_hal_msp.o [1]
 HAL_NVIC_SetPriority     0x800'0897     0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
 HAL_RCCEx_PeriphCLKConfig
                          0x800'0aa5   0x16e  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
@@ -301,112 +301,118 @@ HAL_RCC_GetSysClockFreq
                          0x800'0699    0x72  Code  Gb  stm32l0xx_hal_rcc.o [1]
 HAL_RCC_OscConfig        0x800'00c1   0x424  Code  Gb  stm32l0xx_hal_rcc.o [1]
 HAL_SYSTICK_Config       0x800'089f    0x28  Code  Gb  stm32l0xx_hal_cortex.o [1]
-HardFault_Handler        0x800'148b     0x2  Code  Gb  stm32l0xx_it.o [1]
+HardFault_Handler        0x800'15db     0x2  Code  Gb  stm32l0xx_it.o [1]
+LED0_TaskID             0x2000'1852     0x1  Data  Gb  serial_task.o [1]
+LED4_Task_EventProcess   0x800'114b    0x62  Code  Gb  serial_task.o [1]
+LED4_Task_Init           0x800'113b    0x10  Code  Gb  serial_task.o [1]
 LED_TaskID              0x2000'1850     0x1  Data  Gb  serial_task.o [1]
-MX_GPIO_Init             0x800'10e1    0x60  Code  Gb  gpio.o [1]
-NMI_Handler              0x800'1489     0x2  Code  Gb  stm32l0xx_it.o [1]
-OSAL_TIMER_TICKINIT      0x800'0ee5    0x1e  Code  Gb  timer.o [1]
-OSAL_TIMER_TICKSTART     0x800'0f0d     0x2  Code  Gb  timer.o [1]
-OSAL_TIMER_TICKSTOP      0x800'0f0f     0x2  Code  Gb  timer.o [1]
-PLLMulTable              0x800'1400     0xc  Data  Gb  system_stm32l0xx.o [1]
-PendSV_Handler           0x800'148f     0x2  Code  Gb  stm32l0xx_it.o [1]
-Region$$Table$$Base      0x800'13c8           --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'13ec           --   Gb  - Linker created -
-SVC_Handler              0x800'148d     0x2  Code  Gb  stm32l0xx_it.o [1]
+MX_GPIO_Init             0x800'1225    0x60  Code  Gb  gpio.o [1]
+NMI_Handler              0x800'15d9     0x2  Code  Gb  stm32l0xx_it.o [1]
+OSAL_TIMER_TICKINIT      0x800'0da1    0x1e  Code  Gb  timer.o [1]
+OSAL_TIMER_TICKSTART     0x800'0dc9     0x2  Code  Gb  timer.o [1]
+OSAL_TIMER_TICKSTOP      0x800'0dcb     0x2  Code  Gb  timer.o [1]
+PLLMulTable              0x800'1554     0xc  Data  Gb  system_stm32l0xx.o [1]
+PendSV_Handler           0x800'15df     0x2  Code  Gb  stm32l0xx_it.o [1]
+Region$$Table$$Base      0x800'151c           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1540           --   Gb  - Linker created -
+SVC_Handler              0x800'15dd     0x2  Code  Gb  stm32l0xx_it.o [1]
 Serial_Task_EventProcess
-                         0x800'12a1    0x4a  Code  Gb  serial_task.o [1]
-Serial_Task_EventProcess{5}{6}::dir
-                        0x2000'0000     0x4  Data  Lc  serial_task.o [1]
-Serial_Task_Init         0x800'1295     0xc  Code  Gb  serial_task.o [1]
-SysTick_Handler          0x800'0f11     0x8  Code  Gb  timer.o [1]
-SystemClock_Config       0x800'1007    0x86  Code  Gb  main.o [1]
-SystemCoreClock         0x2000'0010     0x4  Data  Gb  system_stm32l0xx.o [1]
-SystemInit               0x800'13ed     0x2  Code  Gb  system_stm32l0xx.o [1]
+                         0x800'11ad    0x62  Code  Gb  serial_task.o [1]
+Serial_Task_Init         0x800'1131     0xa  Code  Gb  serial_task.o [1]
+SysTick_Handler          0x800'0dcd     0x8  Code  Gb  timer.o [1]
+SystemClock_Config       0x800'12bb    0x86  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'000c     0x4  Data  Gb  system_stm32l0xx.o [1]
+SystemInit               0x800'1541     0x2  Code  Gb  system_stm32l0xx.o [1]
 TaskActive              0x2000'183c     0x4  Data  Gb  osal_event.o [1]
 TaskHead                0x2000'1838     0x4  Data  Gb  osal_event.o [1]
 Task_id                 0x2000'1834     0x1  Data  Gb  osal_event.o [1]
-_Error_Handler           0x800'108d    0x12  Code  Gb  main.o [1]
+_Error_Handler           0x800'1341    0x12  Code  Gb  main.o [1]
 __NVIC_SetPriority       0x800'085d    0x3a  Code  Lc  stm32l0xx_hal_cortex.o [1]
 __aeabi_idiv0            0x800'08d9          Code  Gb  IntDivZer.o [3]
 __aeabi_ldiv0            0x800'08d5          Code  Gb  I64DivZer.o [3]
 __aeabi_lmul             0x800'0789          Code  Gb  I64Mul.o [3]
 __aeabi_uldivmod         0x800'07bb          Code  Gb  I64DivMod.o [3]
-__cmain                  0x800'140d          Code  Gb  cmain.o [3]
-__exit                   0x800'1445    0x14  Code  Gb  exit.o [4]
-__iar_copy_init3         0x800'1371    0x30  Code  Gb  copy_init3.o [3]
-__iar_data_init3         0x800'13a1    0x28  Code  Gb  data_init.o [3]
-__iar_program_start      0x800'147d          Code  Gb  cstartup_M.o [3]
+__cmain                  0x800'1561          Code  Gb  cmain.o [3]
+__exit                   0x800'1599    0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'14c5    0x30  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'14f5    0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'15cd          Code  Gb  cstartup_M.o [3]
 __iar_small_Memset4_word
-                         0x800'11f5          Code  Gb  ABImemset_small.o [3]
+                         0x800'1299          Code  Gb  ABImemset_small.o [3]
 __iar_small_Memset_word
-                         0x800'11f5          Code  Gb  ABImemset_small.o [3]
-__iar_small_memset       0x800'11f5          Code  Gb  ABImemset_small.o [3]
-__iar_small_memset4      0x800'11f5          Code  Gb  ABImemset_small.o [3]
-__iar_small_memset8      0x800'11f5          Code  Gb  ABImemset_small.o [3]
+                         0x800'1299          Code  Gb  ABImemset_small.o [3]
+__iar_small_memset       0x800'1299          Code  Gb  ABImemset_small.o [3]
+__iar_small_memset4      0x800'1299          Code  Gb  ABImemset_small.o [3]
+__iar_small_memset8      0x800'1299          Code  Gb  ABImemset_small.o [3]
 __iar_small_uidiv        0x800'0825          Code  Gb  I32DivMod.o [3]
 __iar_small_uidivmod     0x800'0825          Code  Gb  I32DivMod.o [3]
-__iar_zero_init3         0x800'1335    0x3c  Code  Gb  zero_init3.o [3]
-__low_level_init         0x800'142b     0x4  Code  Gb  low_level_init.o [2]
+__iar_zero_init3         0x800'1455    0x3c  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'157f     0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000          Data  Gb  startup_stm32l071xx.o [1]
-_call_main               0x800'1419          Code  Gb  cmain.o [3]
-_exit                    0x800'1439          Code  Gb  cexit.o [3]
-_main                    0x800'1427          Code  Gb  cmain.o [3]
+_call_main               0x800'156d          Code  Gb  cmain.o [3]
+_exit                    0x800'158d          Code  Gb  cexit.o [3]
+_main                    0x800'157b          Code  Gb  cmain.o [3]
 _theHeap                0x2000'0020  0x1800  Data  Lc  osal_memory.o [1]
 blkCnt                  0x2000'1824     0x2  Data  Lc  osal_memory.o [1]
 blkFree                 0x2000'1826     0x2  Data  Lc  osal_memory.o [1]
 blkMax                  0x2000'1822     0x2  Data  Lc  osal_memory.o [1]
-exit                     0x800'142f     0x8  Code  Gb  exit.o [2]
+exit                     0x800'1583     0x8  Code  Gb  exit.o [2]
 ff1                     0x2000'182c     0x4  Data  Lc  osal_memory.o [1]
 ff2                     0x2000'1830     0x4  Data  Lc  osal_memory.o [1]
-main                     0x800'0ff1    0x16  Code  Gb  main.o [1]
+ledstates               0x2000'1851     0x1  Data  Lc  serial_task.o [1]
+ledstates0              0x2000'1853     0x1  Data  Lc  serial_task.o [1]
+main                     0x800'12a5    0x16  Code  Gb  main.o [1]
 memAlo                  0x2000'1828     0x2  Data  Lc  osal_memory.o [1]
 memMax                  0x2000'182a     0x2  Data  Lc  osal_memory.o [1]
-memset                   0x800'1195    0x14  Code  Gb  memset.o [3]
-osalAddTimer             0x800'0db7    0x42  Code  Gb  osal_timer.o [1]
-osalFindTask             0x800'0fd7    0x16  Code  Gb  osal_event.o [1]
-osalFindTimer            0x800'0df9    0x1c  Code  Gb  osal_timer.o [1]
-osalNextActiveTask       0x800'0fc3    0x14  Code  Gb  osal_event.o [1]
-osalTimerInit            0x800'0d9d    0x1a  Code  Gb  osal_timer.o [1]
-osalTimerUpdate          0x800'0e4f    0x84  Code  Gb  osal_timer.o [1]
-osal_Task_init           0x800'0f59    0x20  Code  Gb  osal_event.o [1]
-osal_add_Task            0x800'0f79    0x4a  Code  Gb  osal_event.o [1]
-osal_clear_event         0x800'0f33    0x1a  Code  Gb  osal_event.o [1]
-osal_init_TaskHead       0x800'0f4d     0xc  Code  Gb  osal_event.o [1]
-osal_init_system         0x800'11a9    0x18  Code  Gb  osal.o [1]
-osal_main                0x800'1141    0x38  Code  Gb  osal_main.o [1]
-osal_mem_alloc           0x800'0c77    0xdc  Code  Gb  osal_memory.o [1]
-osal_mem_free            0x800'0d53    0x30  Code  Gb  osal_memory.o [1]
-osal_mem_init            0x800'0c3d    0x32  Code  Gb  osal_memory.o [1]
-osal_mem_kick            0x800'0c6f     0x8  Code  Gb  osal_memory.o [1]
-osal_msg_deallocate      0x800'1201    0x20  Code  Gb  osal_msg.o [1]
-osal_msg_extract         0x800'1275    0x20  Code  Gb  osal_msg.o [1]
-osal_msg_receive         0x800'1221    0x4e  Code  Gb  osal_msg.o [1]
+memset                   0x800'1285    0x14  Code  Gb  memset.o [3]
+osalAddTimer             0x800'0c57    0x42  Code  Gb  osal_timer.o [1]
+osalFindTask             0x800'0ff3    0x16  Code  Gb  osal_event.o [1]
+osalFindTimer            0x800'0c99    0x1c  Code  Gb  osal_timer.o [1]
+osalNextActiveTask       0x800'0fdf    0x14  Code  Gb  osal_event.o [1]
+osalTimerInit            0x800'0c3d    0x1a  Code  Gb  osal_timer.o [1]
+osalTimerUpdate          0x800'0cef    0xa0  Code  Gb  osal_timer.o [1]
+osal_Task_init           0x800'0f75    0x20  Code  Gb  osal_event.o [1]
+osal_add_Task            0x800'0f95    0x4a  Code  Gb  osal_event.o [1]
+osal_clear_event         0x800'0f4f    0x1a  Code  Gb  osal_event.o [1]
+osal_init_TaskHead       0x800'0f69     0xc  Code  Gb  osal_event.o [1]
+osal_init_system         0x800'1409    0x18  Code  Gb  osal.o [1]
+osal_main                0x800'1395    0x58  Code  Gb  osal_main.o [1]
+osal_mem_alloc           0x800'0e0f    0xdc  Code  Gb  osal_memory.o [1]
+osal_mem_free            0x800'0eeb    0x30  Code  Gb  osal_memory.o [1]
+osal_mem_init            0x800'0dd5    0x32  Code  Gb  osal_memory.o [1]
+osal_mem_kick            0x800'0e07     0x8  Code  Gb  osal_memory.o [1]
+osal_msg_allocate        0x800'100d    0x24  Code  Gb  osal_msg.o [1]
+osal_msg_deallocate      0x800'1031    0x20  Code  Gb  osal_msg.o [1]
+osal_msg_enqueue         0x800'10ed    0x22  Code  Gb  osal_msg.o [1]
+osal_msg_extract         0x800'110f    0x20  Code  Gb  osal_msg.o [1]
+osal_msg_receive         0x800'1097    0x4e  Code  Gb  osal_msg.o [1]
+osal_msg_send            0x800'1051    0x46  Code  Gb  osal_msg.o [1]
 osal_qHead              0x2000'184c     0x4  Data  Gb  osal.o [1]
-osal_set_event           0x800'0f19    0x1a  Code  Gb  osal_event.o [1]
+osal_set_event           0x800'0f35    0x1a  Code  Gb  osal_event.o [1]
 osal_start_reload_timer
-                         0x800'0e2b    0x24  Code  Gb  osal_timer.o [1]
-osal_start_system        0x800'11c1    0x2c  Code  Gb  osal.o [1]
+                         0x800'0ccb    0x24  Code  Gb  osal_timer.o [1]
+osal_start_system        0x800'1421    0x2c  Code  Gb  osal.o [1]
 osal_systemClock        0x2000'1848     0x4  Data  Lc  osal_timer.o [1]
-osal_timer_activate      0x800'0e15    0x16  Code  Gb  osal_timer.o [1]
-osal_update_timers       0x800'0ed3     0xc  Code  Gb  osal_timer.o [1]
+osal_timer_activate      0x800'0cb5    0x16  Code  Gb  osal_timer.o [1]
+osal_update_timers       0x800'0d8f     0xc  Code  Gb  osal_timer.o [1]
 ready                   0x2000'1820     0x1  Data  Lc  osal_memory.o [1]
 tasksCnt                0x2000'1835     0x1  Data  Gb  osal_event.o [1]
 timerActive             0x2000'1841     0x1  Data  Gb  osal_timer.o [1]
 timerHead               0x2000'1844     0x4  Data  Gb  osal_timer.o [1]
 tmr_decr_time           0x2000'1840     0x1  Data  Gb  osal_timer.o [1]
-uwTick                  0x2000'0008     0x4  Data  Gb  stm32l0xx_hal.o [1]
-uwTickFreq              0x2000'0004     0x1  Data  Gb  stm32l0xx_hal.o [1]
-uwTickPrio              0x2000'000c     0x4  Data  Gb  stm32l0xx_hal.o [1]
+uwTick                  0x2000'0004     0x4  Data  Gb  stm32l0xx_hal.o [1]
+uwTickFreq              0x2000'0000     0x1  Data  Gb  stm32l0xx_hal.o [1]
+uwTickPrio              0x2000'0008     0x4  Data  Gb  stm32l0xx_hal.o [1]
 
 
-[1] = D:\Company\work\1_Project\OSAL_LED\OSAL_LED\EWARM\OSAL_LED\Obj
+[1] = D:\Company\work\1_Project\OSAL_LED\EWARM\OSAL_LED\Obj
 [2] = dl6M_tlf.a
 [3] = rt6M_tl.a
 [4] = shb_l.a
 
-  5'194 bytes of readonly  code memory
-    116 bytes of readonly  data memory
-  7'249 bytes of readwrite data memory
+  5'540 bytes of readonly  code memory
+    104 bytes of readonly  data memory
+  7'252 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
